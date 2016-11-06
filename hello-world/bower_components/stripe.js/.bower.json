@@ -1,0 +1,15 @@
+{
+  "name": "stripe.js",
+  "_cacheHeaders": {
+    "ETag": "W/\"581101ce-d950\"",
+    "Last-Modified": "Wed, 26 Oct 2016 19:19:42 GMT",
+    "Content-Length": "20044",
+    "Content-Type": "application/x-javascript"
+  },
+  "_release": "e-tag:W/\"581101c",
+  "main": "index",
+  "_source": "https://js.stripe.com/v2/",
+  "_target": "*",
+  "_originalSource": "https://js.stripe.com/v2/",
+  "_direct": true
+}
