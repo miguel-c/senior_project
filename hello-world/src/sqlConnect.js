@@ -2,7 +2,7 @@ var mysql = require('mysql');
 
  var connection = mysql.createConnection({
    host     : 'www.vuintramurals.com',
-   user     : '<laurenh>',
+   user     : '<lauren-h>',
    password : '<password>',
    database : '<intramurals>'
  });

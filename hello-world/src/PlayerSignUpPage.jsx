@@ -1,4 +1,5 @@
 
+
 import React from 'react'
 import Header from './Header'
 import FlagImage from './vuFlagImage.jpg'
@@ -55,7 +56,7 @@ export default React.createClass({
           </div>
           <div className="col-sm-6">
             <div style={HeadStyle}>
-              <h1>Team Sign Up Page</h1>
+              <h1>Player Sign Up Page</h1>
             </div>
             <br/>
             <br/>
@@ -63,9 +64,10 @@ export default React.createClass({
 
             <p>
               <div style={pStyle}>
-                In order to sign up a team for a sport and season please follow the link below. Note that only one member of the team needs to fill out this form.
-                After this form has been completed, please make sure each team member fills out the <b>Player Sign Up Form</b> in order to complete the sign up process
-                and get your team ready for season! Failure to complete all forms by the Sign Up date will make your team ineligable for the current season.
+                Please make sure that your team captain has filled out the <b>Team Sign Up Form.</b> Please note that there are <b>Two Steps</b> that must be completed
+                in order for you to be signed up to play in the current season on your desired team. Take careful note of the deadline for your season and have all forms
+                completed prior to this date.
+
               </div>
               <br/>
               <br/>
@@ -93,20 +95,18 @@ export default React.createClass({
 
             <br/>
             <br/>
-            <p>
-              <h4><b>Before Clicking the Link:</b></h4>
-              Please have the folling information ready before filling out the form: <br/>
-              <ul>
-                <li>Team Captain Name and Email</li>
-                <li>Team Name</li>
-                <li>What sport and season you would like to sign up for</li>
-                <li>All team player's names and emails</li>
-              </ul>
-            </p>
+            <div style={pStyle}>
+              <p>
+                <h4><b>Player Sign Up Forms:</b></h4>
+                You Must complete <b>BOTH</b> steps below to be signed up. Click on the following links to complete: <br/><br/>
+                <ol>
+                  <li><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSepAMU1PuB6plqjhNXRrIjBbjxmGcz5VRKPlBb5SMEpzDl-mw/viewform'> Information Form</a></li>
+                  <li><a href='https://dochub.com/miguelcorte-real/MRLJ9o/waiver_and_assumption_of_risk?dt=amujzbj5rcaiqzns'>Player Waiver</a></li>
+                </ol>
+              </p>
+            </div>
 
             <br/>
-            <h4><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSeKA8X1aaNMt7eln3rbDQ0QroJUqB_LRu2Agl3nirh4utnPfQ/viewform'>Click here to begin the team sign up form</a></h4>
-
             <br/>
             <br/>
             <br/>

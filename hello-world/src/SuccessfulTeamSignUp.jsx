@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from 'react-button'
 import Header from './Header'
+//import sqlConnect from './sqlConnect'
 
 var buttonStyle = {
 paddingLeft: 775

@@ -1,3 +1,5 @@
+//paypal.me/VUIntramurals
+
 
 import React from 'react'
 import Header from './Header'
@@ -55,7 +57,7 @@ export default React.createClass({
           </div>
           <div className="col-sm-6">
             <div style={HeadStyle}>
-              <h1>Team Sign Up Page</h1>
+              <h1>Forfeit Fee</h1>
             </div>
             <br/>
             <br/>
@@ -63,9 +65,11 @@ export default React.createClass({
 
             <p>
               <div style={pStyle}>
-                In order to sign up a team for a sport and season please follow the link below. Note that only one member of the team needs to fill out this form.
-                After this form has been completed, please make sure each team member fills out the <b>Player Sign Up Form</b> in order to complete the sign up process
-                and get your team ready for season! Failure to complete all forms by the Sign Up date will make your team ineligable for the current season.
+                Please make sure that your team captain has filled out the <b>Team Sign Up Form</b> and that each player has individually filled out the
+                <b>Player Sign Up Form and Waiver.</b> For each team to be successfully registered, please have your team captain follow the link below
+                and pay the appropriate amount of money for the forfeit fee. Failure to pay the appropriate amount by the deadline will mark your team
+                ineligable for the current season. See below for forfeit fee pricing.
+
               </div>
               <br/>
               <br/>
@@ -93,20 +97,44 @@ export default React.createClass({
 
             <br/>
             <br/>
-            <p>
-              <h4><b>Before Clicking the Link:</b></h4>
-              Please have the folling information ready before filling out the form: <br/>
-              <ul>
-                <li>Team Captain Name and Email</li>
-                <li>Team Name</li>
-                <li>What sport and season you would like to sign up for</li>
-                <li>All team player's names and emails</li>
-              </ul>
-            </p>
+            <div style={pStyle}>
+              <p>
+                <h4><b>Forfeit Fee Pricing:</b></h4>
+                See below for the pricing of the forfeit fee depending on the sport in which your team is wishing to participate: <br/><br/>
+                <div className="row">
+
+                  <div className="col-sm-6">
+                    <h5><b>Fall Sports</b></h5>
+                    <ul>
+                      <li>Sand Volleyball Tournament: $20 per team</li>
+                      <li>Flag Football: $40 per team</li>
+                      <li>Outdoor Soccer: $40 per team</li>
+                      <li>Volleyball: $40 per team</li>
+                      <li>Dodgeball Tournament: $20 per team</li>
+                    </ul>
+                  </div>
+
+                  <div className="col-sm-6">
+                    <h5><b>Spring Sports</b></h5>
+                    <ul>
+                      <li>5v5 Basketball: $40 per team</li>
+                      <li>Handball: $20 per team</li>
+                      <li>Indoor Soccer: $40 per team</li>
+                      <li>Softball: $40 per team</li>
+                      <li>Ultimate Frisbee Tournament: $20 per team</li>
+                      <li>Tennis: $10 singles, $20 doubles</li>
+                      <li>Sand Volleyball Tournament: $20 per team</li>
+                    </ul>
+                  </div>
+
+                </div>
+                <br/>
+                <br/>
+                <h4><a href='https://www.paypal.me/VUIntramurals'>Click here to pay the forfeit fee for your team.</a></h4>
+              </p>
+            </div>
 
             <br/>
-            <h4><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSeKA8X1aaNMt7eln3rbDQ0QroJUqB_LRu2Agl3nirh4utnPfQ/viewform'>Click here to begin the team sign up form</a></h4>
-
             <br/>
             <br/>
             <br/>
