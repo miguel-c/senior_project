@@ -11,12 +11,6 @@ textAlign: 'center',
 paddingLeft: '5%'
 }
 
-var imgStyle = {
-textAlign: 'center',
-align: 'center',
-paddingLeft: '0%',
-width: '100%'
-}
 
 var fieldStyle = {
 textAlign: 'center',
@@ -30,7 +24,7 @@ var FAQPage = React.createClass({
       console.log("Redirect Feild Locations");
       location.href = "#/fieldLocations";
   },
-  
+
     render: function() {
         return (
           <div>
@@ -49,7 +43,7 @@ var FAQPage = React.createClass({
                 <p style={pstyle}>See the map below for a map of the field locations. Click on the image below for a larger view.</p>
                 <br></br>
                 <br></br>
-                <img src={imFields} style={fieldStyle} onClick={this.imgHandleClick}/>
+                <img src={imFields} style={fieldStyle} onClick={this.imgHandleClick} role="presentation" />
               </div>
 
               <div className="col-sm-6">

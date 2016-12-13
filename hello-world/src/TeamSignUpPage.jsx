@@ -105,7 +105,22 @@ export default React.createClass({
             </p>
 
             <br/>
-            <h4><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSeKA8X1aaNMt7eln3rbDQ0QroJUqB_LRu2Agl3nirh4utnPfQ/viewform'>Click here to begin the team sign up form</a></h4>
+            <h4><b>Click on the link below to access the team sign up form for the sport and season that you want your team to play in:</b></h4>
+            <br/>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSeKA8X1aaNMt7eln3rbDQ0QroJUqB_LRu2Agl3nirh4utnPfQ/viewform'>Sand Volleyball Tournament (Fall)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSeOjzzxIrmo1Ddrr6ClwegQLYk5rHDo3lUG-_t_U2-EsmUOqQ/viewform'>Flag Football (Fall)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSdy3fxovN-daOtTqqKTDVk3wKt01jw8r-RcxaFFkVX3F0sARw/viewform'>Outdoor Soccer (Fall)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLScPjNkKuDW2uH4OkAEfNxsgmoFCZ980xRJh0eI6oa9_JeJqIg/viewform'>Volleyball (Fall)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLScv62ef90BdJsqEkflvjLco3BfR2O8D9ipEaEDPpvEM_YFX7g/viewform'>Dodgeball Tournament (Fall)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSd63h-HsE_ThxvJzEbcDl_CDKXHybWyWgaEn9CBujHUBJ-JwQ/viewform'>5v5 Basketball (Spring)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSfC2rhtHKTJykRWphjSequXG89eD62oYrnlWD1pik7YnMI0xg/viewform'>Handball (Spring)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSe_Ly6se3KcBifTiv_SXQg6OqbUAZ61ZEKObJNCdQrOmCnB8Q/viewform'>Indoor Soccer (Spring)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSeJEmUC0BW2tFCh6GUAOMlp8DD3tVoGBa4C1WXLOBnfsZdLPg/viewform'>Softball (Spring)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSeZIq-m1K67Vk8sKPxYTxkw1s1BOAICnxhLkwsTNKcpajF5aA/viewform'>Ultimate Frisbee Tournament (Spring)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSfwBLRqajPy9t-I5rCZmDW-atdMxNrC_7yOqqBkP4D87mHIAg/viewform'>Tennis (Spring)</a></h6>
+            <h6><a href='https://docs.google.com/a/villanova.edu/forms/d/e/1FAIpQLSdI8woYBExGxdoFuSZ6QP0O9L2VFjqO5KP9gK4ydZx3EUanZw/viewform'>Sand Volleyball Tournament (Spring)</a></h6>
+
+            
 
             <br/>
             <br/>

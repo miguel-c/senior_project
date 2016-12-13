@@ -49,11 +49,11 @@ export default React.createClass({
             <p style={pstyle}>See the map below for a map of the field locations. Click on the image below for a larger view.</p>
             <br></br>
             <br></br>
-            <img src={imFields} style={fieldStyle} onClick={this.imgHandleClick}/>
+            <img src={imFields} style={fieldStyle} onClick={this.imgHandleClick} role="presentation"/>
           </div>
           <div className="col-sm-6">
             <br></br>
-            <img src={FlagImage} style={imgStyle}/>
+            <img src={FlagImage} style={imgStyle} role="presentation"/>
             <br></br>
             <br></br>
             <br></br>
