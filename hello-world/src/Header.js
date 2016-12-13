@@ -5,7 +5,7 @@ import villanova from './villanova_logo.png'
 var divStyle = {
   width: '100%',
   paddingLeft: 0,
-  height: 210,
+  height: '20%',
   backgroundColor: '#06285e'
 }
 
