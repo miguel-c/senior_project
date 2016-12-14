@@ -108,6 +108,11 @@ export default React.createClass({
 
             <br/>
             <br/>
+            <h4>Check out our GitHub for this website!</h4>
+            <h6><a href='https://github.com/miguel-c/senior_project'>Click Here</a></h6>
+
+            <br/>
+            <br/>
             <br/>
             <br/>
 
